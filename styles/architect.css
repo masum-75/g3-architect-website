@@ -86,7 +86,10 @@ main > section{
     font-size: 4rem;
 }
 .banner-image{
-    width: 100%;
+    max-width: 100%;
+    padding: 50px -50px;
+    
+    
 }
 /* team and feature related style */
 .teams{
@@ -124,10 +127,10 @@ main > section{
       padding-left: 20px;
  }
   .feature-card{
-    padding: 30px;
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 8px;
     box-shadow: 0 4px 30px 0 rgba(114, 114, 114, 1) ;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
  .feature-card .feature-title{
     font-weight: 600;
@@ -136,7 +139,7 @@ main > section{
     margin-bottom: 0px;
  }
  #experience-badge{
-    padding: 45px 42px;
+    padding: 40px 36px;
     font-size: 1.5rem;
     font-weight: 500;
     margin-left: -100px;
@@ -149,6 +152,8 @@ main > section{
 }
 .feature-architect img{
     width: 100%;
+    padding: 30px;
+    margin-top: 50px;
 }
 
  /* some facts related style */
